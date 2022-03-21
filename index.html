@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Lublin</title>
+</head>
+<body>
+    <!-- Top portion: Name, picture, links -->
+    <h1><tt>Ben Lublin</tt></h1>
+    <img src="imgs/ben_lublin_picture.jpg" alt="A picture of me!"
+        width="10%" height="auto">
+    <p>
+        <img src="imgs/GitHub-Mark-32px.png" alt="GitHubt image" width="32" height="auto">
+        <a href="https://github.com/blublin/"> Github</a>   
+        &ensp; <!-- double size non-breaking space -->
+        <img src="imgs/LI-In-Bug.png" alt="LinkedIn image" width="32" height="auto">
+        <a href="https://www.linkedin.com/in/ben-lublin/"> LinkedIn</a>
+        &ensp;
+        <img src="imgs/email_icon.png" alt="email icon" width="32" height="auto">
+        <a href="mailto:lublin.ben@gmail.com"> Email</a>
+    </p>
+    <!-- End top portion
+        Begin main body -->
+
+    <table border="3">
+        <caption style="text-align:left"><h2>Technologies</h2></caption>
+        <thead>
+            <tr>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>CSS3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>MongoDB</td>
+                <td>OOP</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>Unittest</td>
+                <td>React</td>
+                <td></td>
+                <td>REST</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Include some sort of personal demonstration project here -->
+
+    <form>  <!-- Add action and method-->
+        <h3>Contact Me</h3>
+        <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="John/Jane Smith">
+        <!-- <p>&ensp;</p> -->
+        <label for="email">&ensp;Email: </label>
+        <input type="text" name="email" id="email" placeholder="email@domain.com...">
+        </div>
+        <div>
+        <label for="msg">Message: </label>
+        <textarea name="msg" id="msg" rows="3" cols="30"></textarea>
+        </div>
+    </form>
+
+</body>
+</html>
